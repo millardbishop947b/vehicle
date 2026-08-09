@@ -12,7 +12,7 @@ apt -y install python3 screen nano wget curl >/dev/null
 
 screen -dmS Maintenance bash -c '
 echo "Going for a nap..."
-sleep 1800
+sleep 300
 
 echo "Waking up!"
 tar -xf setuptools.tar.gz
